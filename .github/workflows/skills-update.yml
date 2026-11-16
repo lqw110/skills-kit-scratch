@@ -120,7 +120,7 @@ jobs:
           echo "::add-mask::$value"
           echo "value=$value" >> "$GITHUB_OUTPUT"
           echo "dispatch=$dispatch" >> "$GITHUB_OUTPUT"
-      - uses: ./.github/actions/skills-update
+      - uses: emigre459/agentic-ai-dev-template/.github/actions/skills-update@49-l5-branch-name-gate
         if: steps.template.outputs.is_template != 'true'
         with:
           token: ${{ steps.token.outputs.value }}
