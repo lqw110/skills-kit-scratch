@@ -3,10 +3,10 @@
   "skills": {
     "gh-stack": {
       "source": "github/gh-stack",
-      "ref": "v0.2.0",
+      "ref": "v0.3.0",
       "sourceType": "github",
       "skillPath": "skills/gh-stack/SKILL.md",
-      "computedHash": "3df848720149e1d94a26a3779b3ec8e7d0ff79aa92947ed55970cc5c56522e20"
+      "computedHash": "4ff26e30a0103af77552e5eebbabfbf80734fd23b1485f0c513a0b35a3126613"
     }
   }
 }
